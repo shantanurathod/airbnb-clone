@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import Navbar from "./componets/Navbar"
+import Hero from "./componets/Hero"
+import Card from "./componets/Card"
+import photo1 from "./images/image-12.png"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App()
+{
+    return (
+        <div>
+        <Navbar />
+        <Hero/>
+        <Card
+            image = {photo1}
+            rating = "5"
+            rated = "6"
+            country = "USA"
+            title = "Life lessons with Katie Zaferes"
+            price = "136"
+            />
+        </div>
+    )
 }
-
-export default App;
