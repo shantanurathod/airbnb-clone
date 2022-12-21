@@ -28,7 +28,8 @@ nav{
 }
 
 .hero--photo{
-    max-width: 800px;
+    max-width: 80vw;
+    /* max-width: 800px; */
     align-self: center;
     margin-bottom: 32px;
 }
@@ -49,6 +50,7 @@ nav{
     /* background: pink; */
     padding: 20px;
     font-size: 12px;
+    position: relative;
 }
 
 .swimmer{
@@ -75,4 +77,22 @@ nav{
 
 .card-array{
     display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.card--batch{
+    position: absolute;
+    top: 8%;
+    left: 13%;
+    background-color: #FFFFFF;
+    border-radius:3px;
+    width: 61px;
+    height: 20px;
+    text-align: center;
+    /* align-items: center; */
+    font-size: 10px;
+    font-weight: 600;
+    padding-top: 2px;
+    color: #222222
 }

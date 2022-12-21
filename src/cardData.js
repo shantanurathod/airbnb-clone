@@ -5,7 +5,9 @@ let cardData = [
         rated: 6,
         country : "USA",
         title: "Life lessons with Katie Zaferes",
-        price: 136
+        price: 136,
+        openSpotes: 0,
+        online: false 
     },
 
     {
@@ -14,7 +16,9 @@ let cardData = [
         rated: 30,
         country : "USA",
         title: "Learn wedding photography",
-        price: 136
+        price: 136,
+        openSpotes: 20,
+        online: true
     },
 
     {
@@ -23,7 +27,9 @@ let cardData = [
         rated: 2,
         country : "USA",
         title: "Group Mountain Biking",
-        price: 136
+        price: 136,
+        openSpotes: 13,
+        online: false 
     }
 ]
 
